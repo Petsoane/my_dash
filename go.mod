@@ -1,4 +1,4 @@
-module github.com/pterm/cli-template
+module github.com/Petsoane/my_dash
 
 go 1.16
 

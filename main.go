@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/cli-template/cmd"
+import "github.com/Petsoane/my_dash/cmd"
 
 func main() {
 	cmd.Execute()
