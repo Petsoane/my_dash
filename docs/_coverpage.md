@@ -1,4 +1,4 @@
-# cli-template
+# my_dash
 
 > This cli template shows the date and time in the terminal
 

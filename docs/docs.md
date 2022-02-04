@@ -1,9 +1,9 @@
-# cli-template
+# my_dash
 
 ## Usage
 > This cli template shows the date and time in the terminal
 
-cli-template
+my_dash
 
 ## Description
 
@@ -30,23 +30,22 @@ cli-template time --live
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`cli-template completion`|generate the autocompletion script for the specified shell|
-|`cli-template date`|Prints the current date.|
-|`cli-template help`|Help about any command|
-|`cli-template time`|Prints the current time|
+|`my_dash completion`|generate the autocompletion script for the specified shell|
+|`my_dash help`|Help about any command|
+|`my_dash time`|Prints the current time|
 # ... completion
-`cli-template completion`
+`my_dash completion`
 
 ## Usage
 > generate the autocompletion script for the specified shell
 
-cli-template completion
+my_dash completion
 
 ## Description
 
 ```
 
-Generate the autocompletion script for cli-template for the specified shell.
+Generate the autocompletion script for my_dash for the specified shell.
 See each sub-command's help for details on how to use the generated script.
 
 ```
@@ -54,17 +53,17 @@ See each sub-command's help for details on how to use the generated script.
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`cli-template completion bash`|generate the autocompletion script for bash|
-|`cli-template completion fish`|generate the autocompletion script for fish|
-|`cli-template completion powershell`|generate the autocompletion script for powershell|
-|`cli-template completion zsh`|generate the autocompletion script for zsh|
+|`my_dash completion bash`|generate the autocompletion script for bash|
+|`my_dash completion fish`|generate the autocompletion script for fish|
+|`my_dash completion powershell`|generate the autocompletion script for powershell|
+|`my_dash completion zsh`|generate the autocompletion script for zsh|
 # ... completion bash
-`cli-template completion bash`
+`my_dash completion bash`
 
 ## Usage
 > generate the autocompletion script for bash
 
-cli-template completion bash
+my_dash completion bash
 
 ## Description
 
@@ -76,13 +75,13 @@ This script depends on the 'bash-completion' package.
 If it is not installed already, you can install it via your OS's package manager.
 
 To load completions in your current shell session:
-$ source <(cli-template completion bash)
+$ source <(my_dash completion bash)
 
 To load completions for every new session, execute once:
 Linux:
-  $ cli-template completion bash > /etc/bash_completion.d/cli-template
+  $ my_dash completion bash > /etc/bash_completion.d/my_dash
 MacOS:
-  $ cli-template completion bash > /usr/local/etc/bash_completion.d/cli-template
+  $ my_dash completion bash > /usr/local/etc/bash_completion.d/my_dash
 
 You will need to start a new shell for this setup to take effect.
   
@@ -93,12 +92,12 @@ You will need to start a new shell for this setup to take effect.
 |----|-----|
 |`--no-descriptions`|disable completion descriptions|
 # ... completion fish
-`cli-template completion fish`
+`my_dash completion fish`
 
 ## Usage
 > generate the autocompletion script for fish
 
-cli-template completion fish
+my_dash completion fish
 
 ## Description
 
@@ -107,10 +106,10 @@ cli-template completion fish
 Generate the autocompletion script for the fish shell.
 
 To load completions in your current shell session:
-$ cli-template completion fish | source
+$ my_dash completion fish | source
 
 To load completions for every new session, execute once:
-$ cli-template completion fish > ~/.config/fish/completions/cli-template.fish
+$ my_dash completion fish > ~/.config/fish/completions/my_dash.fish
 
 You will need to start a new shell for this setup to take effect.
 
@@ -121,12 +120,12 @@ You will need to start a new shell for this setup to take effect.
 |----|-----|
 |`--no-descriptions`|disable completion descriptions|
 # ... completion powershell
-`cli-template completion powershell`
+`my_dash completion powershell`
 
 ## Usage
 > generate the autocompletion script for powershell
 
-cli-template completion powershell
+my_dash completion powershell
 
 ## Description
 
@@ -135,7 +134,7 @@ cli-template completion powershell
 Generate the autocompletion script for powershell.
 
 To load completions in your current shell session:
-PS C:\> cli-template completion powershell | Out-String | Invoke-Expression
+PS C:\> my_dash completion powershell | Out-String | Invoke-Expression
 
 To load completions for every new session, add the output of the above command
 to your powershell profile.
@@ -147,12 +146,12 @@ to your powershell profile.
 |----|-----|
 |`--no-descriptions`|disable completion descriptions|
 # ... completion zsh
-`cli-template completion zsh`
+`my_dash completion zsh`
 
 ## Usage
 > generate the autocompletion script for zsh
 
-cli-template completion zsh
+my_dash completion zsh
 
 ## Description
 
@@ -167,9 +166,9 @@ $ echo "autoload -U compinit; compinit" >> ~/.zshrc
 
 To load completions for every new session, execute once:
 # Linux:
-$ cli-template completion zsh > "${fpath[1]}/_cli-template"
+$ my_dash completion zsh > "${fpath[1]}/_my_dash"
 # macOS:
-$ cli-template completion zsh > /usr/local/share/zsh/site-functions/_cli-template
+$ my_dash completion zsh > /usr/local/share/zsh/site-functions/_my_dash
 
 You will need to start a new shell for this setup to take effect.
 
@@ -179,39 +178,27 @@ You will need to start a new shell for this setup to take effect.
 |Flag|Usage|
 |----|-----|
 |`--no-descriptions`|disable completion descriptions|
-# ... date
-`cli-template date`
-
-## Usage
-> Prints the current date.
-
-cli-template date
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-f, --format string`|specify a custom date format (default "02 Jan 06")|
 # ... help
-`cli-template help`
+`my_dash help`
 
 ## Usage
 > Help about any command
 
-cli-template help [command]
+my_dash help [command]
 
 ## Description
 
 ```
 Help provides help for any command in the application.
-Simply type cli-template help [path to command] for full details.
+Simply type my_dash help [path to command] for full details.
 ```
 # ... time
-`cli-template time`
+`my_dash time`
 
 ## Usage
 > Prints the current time
 
-cli-template time
+my_dash time
 
 ## Description
 
@@ -226,4 +213,4 @@ You can print a live clock with the '--live' flag!
 
 
 ---
-> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 03 February 2022**
+> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 04 February 2022**
