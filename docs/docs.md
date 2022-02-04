@@ -32,7 +32,6 @@ cli-template time --live
 |-------|-----|
 |`my_dash completion`|generate the autocompletion script for the specified shell|
 |`my_dash help`|Help about any command|
-|`my_dash time`|Prints the current time|
 # ... completion
 `my_dash completion`
 
@@ -192,24 +191,6 @@ my_dash help [command]
 Help provides help for any command in the application.
 Simply type my_dash help [path to command] for full details.
 ```
-# ... time
-`my_dash time`
-
-## Usage
-> Prints the current time
-
-my_dash time
-
-## Description
-
-```
-You can print a live clock with the '--live' flag!
-```
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-l, --live`|live output|
 
 
 ---
